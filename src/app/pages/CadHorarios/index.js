@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import './styles.css'
 export function CadHorario() {
+
   return (
     <div className="container">
       <div className="head">

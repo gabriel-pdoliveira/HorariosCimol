@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
+//import firebase from "../../shared/services/firebase";
+//import { addDoc, collection } from "firebase/firestore"; 
+
+
+function getTurma() {
+  var nameTurma=document.getElementById("nameTurma").value
+  alert("Turma "+nameTurma+" adicionada!")
+}
+
 export function CadTurmas() {
-
-  function getTurma() {
-    var nameTurma=document.getElementById("nameTurma").value
-    alert("Turma "+nameTurma+" adicionada!")
-  }
-
-
 
     return (
       <div className="container">
